@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro_service_cloud7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro_service_cloud7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro_service_cloud7003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro_service_cloud_api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro_service_cloud_provider_dept_8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro_service_cloud_provider_dept_8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-consumer-dept-80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-consumer-dept-Feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001" charset="UTF-8" />
+  </component>
+</project>

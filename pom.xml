@@ -23,6 +23,7 @@
         <module>micro_service_cloud7003</module>
         <module>micro_service_cloud_provider_dept_8002</module>
         <module>microservicecloud-consumer-dept-Feign</module>
+        <module>microservicecloud-provider-dept-hystrix-8001</module>
     </modules>
 
     <properties>

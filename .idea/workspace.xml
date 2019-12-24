@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c6072a0-042a-4f4e-bc77-4e3d36fdf8e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/com/itcc/springcloud/DeptProvider8001_HytrixApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/com/itcc/springcloud/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/com/itcc/springcloud/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/com/itcc/springcloud/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/com/itcc/springcloud/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/resources/mybatis/config-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/itcc/springcloud/config/ConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/itcc/springcloud/config/ConfigBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/micro_service_cloud_provider_dept_8001/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/micro_service_cloud7001/target/" />
+    <ignored path="$PROJECT_DIR$/micro_service_cloud_api/target/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-consumer-dept-80/target/" />
+    <ignored path="$PROJECT_DIR$/micro_service_cloud7002/target/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-consumer-dept-Feign/target/" />
+    <ignored path="$PROJECT_DIR$/micro_service_cloud_provider_dept_8002/target/" />
+    <ignored path="$PROJECT_DIR$/micro_service_cloud7003/target/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2032765805">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="19" />
+          <entry key="xml" value="5" />
+          <entry key="yml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="19" />
+          <entry key="XML" value="5" />
+          <entry key="YAML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="14" />
+          <entry key="java" value="55" />
+          <entry key="yml" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="55" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="YAML" value="10" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/com/itcc/springcloud/service/impl/DeptServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <folding>
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/com/itcc/springcloud/mapper/DeptMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/resources/mybatis/mapper/DeptMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/resources/mybatis/config-mybatis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/com/itcc/springcloud/controller/DeptController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#856#857#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/micro_service_cloud_api/src/main/java/com/itcc/springcloud/service/DeptClientService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/itcc/springcloud/config/ConfigBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+              <folding>
+                <element signature="e#781#782#0" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/itcc/springcloud/controller/DeptControllerConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/itcc/RibbonRules/MySelfRule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/com/itcc/springcloud/DeptProvider8001.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/com/itcc/springcloud/DeptProvider8001_HytrixApp.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/itcc/springcloud/config/ConfigBean.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/com/itcc/springcloud/controller/DeptController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/usr/local/Cellar/maven/3.6.1/libexec" />
+        <option name="userSettingsFile" value="/usr/local/Cellar/maven/3.6.1/libexec/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="343" />
+    <option name="y" value="23" />
+    <option name="width" value="1853" />
+    <option name="height" value="1359" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="micro_service_cloud_provider_dept_8001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="micro_service_cloud_provider_dept_8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="micro_service_cloud_provider_dept_8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="micro_service_cloud_provider_dept_8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="micro_service_cloud_provider_dept_8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itcc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itcc" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itcc" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itcc" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itcc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itcc" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itcc" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itcc" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itcc" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itcc" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro_service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro_service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577185836358" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java" />
+      <recent name="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DeptConsumer80">
+    <configuration name="DeptConsumer80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservicecloud-consumer-dept-80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itcc.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itcc.springcloud.DeptConsumer80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeptProvider8001_HytrixApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservicecloudproviderdepthystrix8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itcc.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itcc.springcloud.DeptProvider8001_HytrixApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="micro_service_cloud7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itcc.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itcc.springcloud.EurekaApplication7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="micro_service_cloud7002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itcc.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itcc.springcloud.EurekaApplication7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication7003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="micro_service_cloud7003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itcc.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itcc.springcloud.EurekaApplication7003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaApplication7001" />
+      <item itemvalue="Spring Boot.EurekaApplication7002" />
+      <item itemvalue="Spring Boot.EurekaApplication7003" />
+      <item itemvalue="Spring Boot.DeptProvider8001_HytrixApp" />
+      <item itemvalue="Spring Boot.DeptConsumer80" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DeptConsumer80" />
+        <item itemvalue="Spring Boot.DeptProvider8001_HytrixApp" />
+        <item itemvalue="Spring Boot.EurekaApplication7003" />
+        <item itemvalue="Spring Boot.EurekaApplication7002" />
+        <item itemvalue="Spring Boot.EurekaApplication7001" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c6072a0-042a-4f4e-bc77-4e3d36fdf8e9" name="Default Changelist" comment="" />
+      <created>1577184764430</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577184764430</updated>
+      <workItem from="1577184767147" duration="1056000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1056000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="343" y="23" width="1853" height="1359" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21700718" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="JProfiler" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3914791" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" visible="true" weight="0.25013804" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/micro_service_cloud7001/src/main/java/com/itcc/springcloud/EurekaApplication7001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro_service_cloud7002/src/main/java/com/itcc/springcloud/EurekaApplication7002.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro_service_cloud7003/src/main/java/com/itcc/springcloud/EurekaApplication7003.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-Feign/src/main/java/com/itcc/springcloud/config/ConfigBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-Feign/src/main/java/com/itcc/springcloud/controller/DeptController_Feign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-Feign/src/main/java/com/itcc/springcloud/DeptConsumer80_Feign_App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro_service_cloud_provider_dept_8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="78" selection-start-line="12" selection-start-column="4" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/com/itcc/springcloud/service/DeptService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/com/itcc/springcloud/DeptProvider8001_HytrixApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/itcc/springcloud/DeptConsumer80.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/itcc/RibbonRules/MyRibbonRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/itcc/RibbonRules/MySelfRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/itcc/springcloud/config/ConfigBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/itcc/springcloud/controller/DeptControllerConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/com/itcc/springcloud/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro_service_cloud_api/src/main/java/com/itcc/springcloud/service/DeptClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/com/itcc/springcloud/service/impl/DeptServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/com/itcc/springcloud/mapper/DeptMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/resources/mybatis/mapper/DeptMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/resources/mybatis/config-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

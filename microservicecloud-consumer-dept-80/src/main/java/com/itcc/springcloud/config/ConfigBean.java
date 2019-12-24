@@ -23,8 +23,8 @@ public class ConfigBean //boot -->spring   applicationContext.xml --- @Configura
         return new RestTemplate();
     }
 
-    @Bean
-    public IRule mySelfRule() {
-        return new RandomRule(); // 随机服务选择算法
-    }
+//    @Bean
+//    public IRule mySelfRule() {
+//        return new RandomRule(); // 随机服务选择算法
+//    }
 }

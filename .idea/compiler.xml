@@ -14,6 +14,7 @@
         <module name="micro_service_cloud_provider_dept_8002" />
         <module name="microservicecloud-consumer-dept-80" />
         <module name="microservicecloud-consumer-dept-Feign" />
+        <module name="microservicecloudconsumerhystrixdashboard" />
         <module name="microservicecloudproviderdepthystrix8001" />
       </profile>
     </annotationProcessing>

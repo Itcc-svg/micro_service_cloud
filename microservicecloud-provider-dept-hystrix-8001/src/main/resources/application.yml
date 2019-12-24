@@ -40,3 +40,9 @@ info:
   company.name: www.itcc.com
   build.artifactId: "@project.artifactId@"
   build.version: "@project.version@"
+
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: hystrix.stream # 或者'*'

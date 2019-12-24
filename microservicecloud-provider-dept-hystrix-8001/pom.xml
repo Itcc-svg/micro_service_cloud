@@ -32,6 +32,12 @@
                 spring-cloud-starter-netflix-hystrix
             </artifactId>
             <version>2.1.1.RELEASE</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.cloud</groupId>
+                    <artifactId>spring-cloud-starter</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <!-- actuator监控信息完善 -->

@@ -40,3 +40,9 @@ info:
   company.name: www.itcc.com
   build.artifactId: "microservicecloud-provider-dept-hystrix-8001"
   build.version: "1.0-SNAPSHOT"
+
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: hystrix.stream # 或者'*'

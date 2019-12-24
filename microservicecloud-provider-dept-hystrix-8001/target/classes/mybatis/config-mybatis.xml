@@ -4,8 +4,8 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 
-    <settings>
-        <setting name="cacheEnabled" value="true"/><!-- 二级缓存开启 -->
-    </settings>
+<settings>
+    <setting name="cacheEnabled" value="true"/><!-- 二级缓存开启 -->
+</settings>
 
 </configuration>

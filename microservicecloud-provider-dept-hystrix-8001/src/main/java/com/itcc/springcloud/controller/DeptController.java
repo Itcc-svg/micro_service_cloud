@@ -3,6 +3,7 @@ package com.itcc.springcloud.controller;
 
 import com.itcc.springcloud.entity.Dept;
 import com.itcc.springcloud.service.DeptService;
+import com.netflix.hystrix.contrib.javanica.annotation.DefaultProperties;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
@@ -11,7 +12,11 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-
+/**
+ *
+ * @DefaultProperties(defaultFallback = "processHystrix_Get")
+ * 默认回退方法不能有参数，可以指定默认的回退方法
+ */
 @RestController
 public class DeptController {
 

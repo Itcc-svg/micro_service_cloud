@@ -1,0 +1,42 @@
+server:
+  port: 8001
+
+
+spring:
+  application:
+    # 名称不能使用下划线
+    name: micro-service-cloud-dept
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
+    driver-class-name: com.mysql.cj.jdbc.Driver              # mysql驱动包
+    url: jdbc:mysql://localhost:3306/cloudDB01              # 数据库名称
+    username: root
+    password: caimenglei.
+    dbcp2:
+      min-idle: 5                                           # 数据库连接池的最小维持连接数
+      initial-size: 5                                       # 初始化连接数
+      max-total: 5                                          # 最大连接数
+      max-wait-millis: 200                                  # 等待连接获取的最大超时时间
+
+mybatis:
+  # 指定全局配置文件位置
+  config-location: classpath:mybatis/config-mybatis.xml
+  # 指定sql映射文件位置
+  mapper-locations: classpath:mybatis/mapper/*.xml
+
+eureka:
+  client: #客户端注册进eureka服务列表内
+    service-url:
+#      defaultZone: http://localhost:7001/eureka
+
+      # 将服务注册进集群
+      defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/,http://eureka7001.com:7001/eureka/
+  instance:
+    instance-id: itcc-microservicecloud-dept8001  # 实例名称
+    prefer-ip-address: true     # 访问路径可以显示IP地址
+
+info:
+  app.name: itcc-microservicecloud
+  company.name: www.itcc.com
+  build.artifactId: "micro_service_cloud_provider_dept_8001"
+  build.version: "1.0-SNAPSHOT"

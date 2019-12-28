@@ -29,6 +29,4 @@ public class DeptServiceImpl implements DeptService {
         deptMapper.add(dept);
         return dept;
     }
-
-
 }

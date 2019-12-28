@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 /**
- *
  * @DefaultProperties(defaultFallback = "processHystrix_Get")
  * 默认回退方法不能有参数，可以指定默认的回退方法
  */
@@ -32,10 +31,16 @@ public class DeptController {
 
         Dept dept = deptService.get(id);
 
-        if(dept == null){
-            throw new RuntimeException("该ID："+id+"没有没有对应的信息");
+        if (dept == null) {
+            throw new RuntimeException("该ID：" + id + "没有没有对应的信息");
         }
         return dept;
+    }
+
+    public Dept processHystrix_Get(@PathVariable("id") Long id) {
+        return new Dept().setDeptno(id)
+                .setDname("该ID：" + id + "没有没有对应的信息,null--@HystrixCommand")
+                .setDb_source("no this database in MySQL");
     }
 
     @RequestMapping(value = "/dept/list", method = RequestMethod.GET)
@@ -62,12 +67,6 @@ public class DeptController {
                     + element.getUri());
         }
         return this.client;
-    }
-
-    public Dept processHystrix_Get(@PathVariable("id") Long id) {
-        return new Dept().setDeptno(id)
-                .setDname("该ID：" + id + "没有没有对应的信息,null--@HystrixCommand")
-                .setDb_source("no this database in MySQL");
     }
 }
 

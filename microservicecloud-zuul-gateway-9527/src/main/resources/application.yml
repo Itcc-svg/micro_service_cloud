@@ -1,0 +1,32 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: micro-service-cloud-zuul-gateway
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+  instance:
+      instance-id: gateway-9527.com
+      prefer-ip-address: true
+
+# 真实微服务名称的映射
+zuul:
+  routes:
+    mydept.serviceId: micro-service-cloud-dept
+    mydept.path: /itcc-dept/**
+
+  # 真实路径不能进行访问 禁止一个 micro-service-cloud-dept 禁止多个使用 "*"
+  ignored-services: micro-service-cloud-dept
+
+  # 构造统一前缀  http://myzuul.com:9527/itcc/itcc-dept/dept/get/2
+  prefix: /itcc
+
+info:
+  app.name: itcc-microcloud
+  company.name: www.itcc.com
+  build.artifactId: "@project.artifactId@"
+  build.version: "@project.version@"

@@ -1195,3 +1195,6 @@ public class DashboardConfiguration {
 }
 ```
 
+## Spring Cloud Config
+
+本节内容查看SpringCloud笔记
